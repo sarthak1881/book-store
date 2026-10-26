@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #243B53;
+    overflow: hidden;
+}
+
+.top {
+    background-color:#173B57;
+}
+
+.top-title {
+    height: 65%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    margin: 3px;
+}
+
+.logo-text {
+    width:18%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173B57;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.college-name {
+    width: 82%;
+    text-align: center;
+    color: white;
+}
+
+.college-name h1 {
+    font-size: 30px;
+    margin: 4px;
+    color: #102A43;
+    text-align: center;
+}
+
+.college-name p {
+    font-size: 10px;
+    margin: 3px;
+    text-align: center;
+}
+
+
+.navigation {
+    height: 45%;
+    background-color: #65C6BB;
+    border: 1px solid #333;
+    margin: 3px;
+    text-align:center;
+    font-weight:bolder ;
+}
+
+.navigation a {
+    display: inline-block;
+    width: 17%;
+    padding: 8px 0;
+    color: #243B53;
+    text-decoration: none;
+    border-right: 1px solid #2C7A7B;
+}
+
+.navigation a:hover {
+    background-color: #3AAFA9;
+}
+
+.left {
+    background-color:#173B57;
+    padding: 10px;
+}
+
+.left h3 {
+    text-align: center;
+    font-size: 11px;
+    color: #173B57;
+    margin-bottom: 15px;
+}
+
+.left a {
+    display: block;
+    text-decoration: none;
+    color: #243B53;
+    background-color: #E6F6F5;
+    border: 1px solid #A8DADC;
+    padding: 8px;
+    margin-bottom: 6px;
+}
+
+.left a:hover {
+    background-color: #BDEBE5;
+}
+
+.main {
+    background-color: #F4F8FB;
+    padding: 20px;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.home-content h2 {
+    font-size: 15px;
+    color: #173B57;
+}
+
+.home-content h3 {
+    font-size: 13px;
+    color: #247B7B;
+}
+
+.home-content p {
+    line-height: 1.6;
+}
+
+
+.form-box {
+    width: 350px;
+    margin: 30px auto;
+}
+
+.form-box h2 {
+    text-align: center;
+    font-size: 14px;
+    color: #173B57;
+    margin-bottom: 20px;
+}
+
+.form-box table {
+    margin: auto;
+}
+
+.form-box td {
+    padding: 6px;
+}
+
+.form-box input[type="text"],
+.form-box input[type="email"],
+.form-box input[type="password"] {
+    width: 150px;
+    height: 16px;
+    border: 1px solid #555;
+}
+
+.form-box input[type="submit"],
+.form-box input[type="reset"] {
+    background-color: #65C6BB;
+    border: 1px solid #555;
+    padding: 5px 12px;
+    margin: 8px 3px;
+}
+
+.form-box input[type="submit"]:hover,
+.form-box input[type="reset"]:hover {
+    background-color: #3AAFA9;
+}
+
+.page-title {
+    text-align: center;
+    color: #173B57;
+    font-size: 14px;
+}
+
+.catalogue {
+    width: 96%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.catalogue th {
+    background-color: #65C6BB;
+}
+
+.catalogue th,
+.catalogue td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+.catalogue tr:nth-child(even) {
+    background-color: #EFF9F8;
+}
+
+.catalogue button {
+    background-color: #65C6BB;
+    border: 1px solid #555;
+    padding: 5px 9px;
+    font-size: 10px;
+}
+
+.catalogue button:hover {
+    background-color: #3AAFA9;
+}
+
+
+.cart {
+    width: 70%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.cart th {
+    background-color: #65C6BB;
+}
+
+.cart th,
+.cart td {
+    border: 1px solid #333;
+    padding: 9px;
+    text-align: center;
+}
+
+.checkout {
+    text-align: center;
+}
+
+.checkout button {
+    background-color: #65C6BB;
+    border: 1px solid #555;
+    padding: 6px 15px;
+}
