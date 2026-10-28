@@ -139,5 +139,40 @@ function validateForm() {
     return true;
 }
 </script>
+    <script>
+function validateForm() {
+    let name = document.getElementById("name").value.trim();
+    let password = document.getElementById("password").value;
+    let email = document.getElementById("email").value.trim();
+    let phone = document.getElementById("phone").value.trim();
+
+    if (name === "") {
+        alert("Please enter your name");
+        return false;
+    }
+
+    if (password.length < 6) {
+        alert("Password must be at least 6 characters");
+        return false;
+    }
+
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!emailPattern.test(email)) {
+        alert("Please enter a valid Email ID");
+        return false;
+    }
+
+    let phonePattern = /^[0-9]{10}$/;
+
+    if (!phonePattern.test(phone)) {
+        alert("Please enter a valid 10-digit phone number");
+        return false;
+    }
+
+    alert("Registration successful!");
+    return true;
+}
+</script>
 </body>
 </html>
