@@ -106,6 +106,38 @@
         </form>
 
     </div>
+<form onsubmit="return validateForm()">
 
+    <label>Name:</label>
+    <input type="text" id="name" placeholder="Enter your name">
+    <br><br>
+
+    <label>Password:</label>
+    <input type="password" id="password" placeholder="Enter password">
+    <br><br>
+
+    <button type="submit">Register</button>
+
+</form>
+
+<script>
+function validateForm() {
+    let name = document.getElementById("name").value.trim();
+    let password = document.getElementById("password").value;
+
+    if (name === "") {
+        alert("Please enter your name");
+        return false;
+    }
+
+    if (password.length < 6) {
+        alert("Password must contain at least 6 characters");
+        return false;
+    }
+
+    alert("Registration successful!");
+    return true;
+}
+</script>
 </body>
 </html>
