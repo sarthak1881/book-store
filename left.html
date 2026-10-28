@@ -25,6 +25,138 @@
     <a href="catalogue.html" target="rightFrame">
         Civil
     </a>
+/* Import font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Playfair+Display:wght@700&display=swap');
 
+/* Main webpage */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #ffffff;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+    ), url('images/bookstore.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Main heading */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: #f4c76b;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Subheadings */
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #ffd98e;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+}
+
+/* Links */
+a {
+    color: #ffd98e;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Buttons */
+button {
+    background-color: #b77932;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    background-color: #8c5422;
+}
+    <style>
+  /* 1. Keep your form labels dark and readable */
+  label,
+  .form-group label,
+  form td,
+  form span {
+    color: #111827 !important;
+    background-color: transparent !important;
+    font-weight: 600 !important;
+  }
+
+  /* 2. Keep the registration card container solid white */
+  .card, 
+  form, 
+  table {
+    background-color: #ffffff !important;
+  }
+
+  /* =========================================================
+     CSS Background Repetition Requirement
+     ========================================================= */
+
+  /* A. Horizontal Repeat Bar: Place this divider above or below the form */
+  .book-shelf-divider {
+    width: 100%;
+    height: 14px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="14"><rect width="14" height="14" fill="%23800020"/><rect x="14" width="2" height="14" fill="%235a0016"/></svg>');
+    background-repeat: repeat-x; /* Demonstrates horizontal tiling */
+    margin: 15px 0;
+  }
+
+  /* B. Inner banner box demonstrating repeat pattern */
+  .pattern-demo-box {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 6px;
+    background-image: url('https://www.transparenttextures.com/patterns/notebook.png');
+    background-repeat: repeat;   /* Demonstrates full tiling */
+    border: 1px solid #d1d5db;
+    color: #374151;
+    font-size: 13px;
+  }
+
+  /* =========================================================
+     CSS Link States (LVHA Rule)
+     ========================================================= */
+  a:link {
+    color: #800020;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  a:visited {
+    color: #581c87;
+  }
+
+  a:hover {
+    color: #dc2626;
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: #ea580c;
+  }
+</style>
 </body>
 </html>
